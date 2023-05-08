@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-// Декларативный стиль. Функция возвращает как должен отображаться элемент DIV без подробного пошагового описания его в JavaScript коде
+// Декларативный стиль JSX. Функция возвращает как должен отображаться элемент DIV без подробного пошагового описания его в JavaScript коде
 export const App = () => {
     const year = new Date().getFullYear();
     return (
